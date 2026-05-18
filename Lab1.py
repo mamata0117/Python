@@ -14,25 +14,26 @@ for i in range(1, 13):
 
 # use # or ''' to comment out code that you don't want to run, but want to keep for reference.
 #2 to print the result of integer division and float division
-'''a,b=20,5
-c,d=14.5,4.30
-print(f"The result of integer division of {a} by {b} is {a//b}")
-print(f"The result of float division of {c} by {d} is {c/d}")'''
+# a,b=20,5
+# c,d=14.5,4.30
+# print(f"The result of integer division of {a} by {b} is {a//b}")
+# print(f"The result of float division of {c} by {d} is {c/d}")
 #3evaluate the following expressions
-'''print(4*(6+5))
-print(4*6+5)
-print(4+6*5)
-print(5>4 and 3==5) 
-print(not (5>4))
-print(5>4 or 3==5)
-print(not (5>4) or (3==5))
-print((True and True ) and (True==False))
-print((not False) or (not True))
+# print(4*(6+5))
+# print(4*6+5)
+# print(4+6*5)
+# print(5>4 and 3==5) 
+# print(not (5>4))
+# print(5>4 or 3==5)
+# print(not (5>4) or (3==5))
+# print((True and True ) and (True==False))
+# print((not False) or (not True))
 
 #4
-print(f"The result of expression 3*1.5+4 is type {type(3*1.5+4)}") '''
-'''#5
-num=int(input("Enter a number:"))
+# print(f"The result of expression 3*1.5+4 is type {type(3*1.5+4)}") 
+
+#5
+'''num=int(input("Enter a number:"))
 print(f"The square of the num is {num**2} and square root of the num is {num**0.5}")
 # or
 a=2
@@ -91,20 +92,20 @@ if(15<=a<=20 and 15<=b<=20):
     print(f"The sum of {a} and {b} is 20")
 
 else:
-   print(f"The sum of {a} and {b} is {a+b}")
+   print(f"The sum of {a} and {b} is {a+b}")'''
 #15
-x,y=4,3
-print(f"({x}+{y})^2 = {(x+y)*(x+y)}")'''
-'''
-#16
-n=3
-result=" " 
-for i in range(n):
-   data=input("Enter a string: ")
-   result+=data+" "
-print(result)
+# x,y=4,3
+# print(f"({x}+{y})^2 = {(x+y)*(x+y)}")
 
+#16
+# n=3
+# result=" " 
+# for i in range(n):
+#    data=input("Enter a string: ")
+#    result+=data+" "
+# print(result)
 #17
+'''
 x,y=30,20
 print(f"{x}+{y}={x+y}") 
 #18
@@ -113,11 +114,39 @@ b='hello'
 c=3.14
 print(f"The type of a is {type(a)}")
 print(f"The type of b is {type(b)}")
-print(f"The type of c is {type(c)}")'
+print(f"The type of c is {type(c)}")
  #19
+
 name=input("Enter your name:")
-print(f"Hello {name}, welcome to python programming!")
+print(f"Hello {name}, welcome to python programming!")'''
 #20
 roses=input("Enter the number of roses you want to buy:")
 roses=int(roses)
-print("You have",roses,"roses in your cart")'''
+print("You have",roses,"roses in your cart")
+# x = 10
+
+# if type(x) == int:
+#     print("Integer")
+# elif type(x) == float:
+#     print("Float")
+# elif type(x) == str:
+#     print("String")
+# x = [1, 2, 3]
+
+# if type(x) == list:
+#     print("List")
+# elif type(x) == tuple:
+#     print("Tuple")
+# elif type(x) == set:
+#     print("Set")
+# a = 10
+# b = 3.5
+# c = "Python"
+# d = [1, 2, 3]
+
+# print(type(a))
+# print(type(b))
+# print(type(c))
+# print(type(d))
+# import sys
+# print(sys.version)
