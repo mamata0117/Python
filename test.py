@@ -44,4 +44,9 @@ color=input("What is your favourite color?:")
 print(f"My favourite color is {color}")
 electricity_bill=input("What is your electricity bill?:")
 print(f"My electricity bill is {electricity_bill}")
+data=input("Enter a string:")
+print(f"Reversed string: {data[::-1]}")
+#::-1 is used to reverse the string using slicing and slicing is a technique to extract a portion of a string by specifying the start and end index. The syntax for slicing is string[start:end:step]
+
+
 
