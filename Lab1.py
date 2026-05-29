@@ -150,3 +150,13 @@ print("You have",roses,"roses in your cart")
 # print(type(d))
 # import sys
 # print(sys.version)
+#add 2 floats and print the result
+num1 = 3.5
+num2 = 2.5
+result = num1 + num2
+print(f"The sum of {num1} and {num2} is {result}")
+#add two float and print its result with 2 decimal places and also in integer form
+num1 = 3.5
+num2 = 2.5      
+result = num1 + num2
+print(f"The sum of {num1} and {num2} is {result:.2f} and in integer form it is {int(result)}")
