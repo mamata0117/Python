@@ -61,3 +61,15 @@
 # new_bags=copy.copy(bags)
 # print(new_bags)
 
+# clothes=['shirt','pant','t-shirt','jeans']
+# x=clothes.count('shirt')
+# print(x)
+# finding the maximum and minimum value in a list
+numbers=[5,20,9,91,77]
+numbers.sort()
+print('The maximum value in the list is:',numbers[-1])
+print('The minimum value in the list is:',numbers[0])
+numbers=[15,20,9,891,77]
+print('The maximum value in the list is:',max(numbers))
+print('The minimum value in the list is:',min(numbers))
+# without using sort you can usen max() and min()
