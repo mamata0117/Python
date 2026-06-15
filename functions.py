@@ -98,8 +98,39 @@ meaning they must be specified using their parameter name when calling the funct
 # def greet(**words):
 #         for key,value in words.items():
 #             print(f"{key}: {value}")    
-# greet(greeting="Hello", name="Alice", age=30)
-def myfun(**kwargs):
-    for key, value in kwargs.items():
-        print("%s == %s" % (key, value))
-myfun(first='Geeks', mid='for', last='Geeks')
+# # greet(greeting="Hello", name="Alice", age=30)
+# def myfun(**kwargs):
+#     for key, value in kwargs.items():
+#         print("%s == %s" % (key, value))
+# myfun(first='Geeks', mid='for', last='Geeks')
+# def addr(**kwargs):
+#     for key, value in kwargs.items():
+#         print( "{}: {}".format(key, value))
+# print('pass two argumens to the function')
+# print(Name='shishimaru',age='twenty') this is wrong because we are not calling the function and we are not passing the arguments to the function.the right way to do this is to call the function and pass the arguments to the function like this:
+# addr(Name='shishimaru',age='twenty')
+# print('pass three arguments to the function')
+# addr(length=20,height=90,shape='rectangle')
+
+def percent(math,sci,**optionsl):
+    print("Math:",math)
+    print("Science:",sci)
+    s=math+sci
+    for key, value in optionsl.items():
+        print( "{}: {}".format(key, value))
+        s=s+value
+    return s/len(optionsl)+2
+result=percent(math=90,sci=80,eng=70,hist=60,geo=50)
+print("Percentage:",result)
+#prime ,factorial,even odd,armstrong,perfect number,leap year,reverse number, palindrome number, sum of digits, fibonacci series, sum of n natural numbers, sum of n even numbers, sum of n odd numbers, sum of squares of n natural numbers, sum of cubes of n natural numbers, binary to decimal conversion, decimal to binary conversion, octal to decimal conversion, decimal to octal conversion, hexadecimal to decimal conversion, decimal to hexadecimal conversion
+#finding a number is prime or not
+def is_prime(n):
+    if n <= 1:
+        return False
+    for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+            return False
+    return True
+print(is_prime(11))  # True
+print(is_prime(4))   # False
+print(is_prime(int(input('Enter a number: '))))
