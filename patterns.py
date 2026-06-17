@@ -94,6 +94,37 @@
 # for i in range(1, 6):
 #     print(i, i + 1)
 # # pattern16
-n = 4
-for i in range(n):
+# n = 4
+# for i in range(n):
+#     print(str(i) * (i + 1))
+
+m=8
+for i in range(m):
     print(str(i) * (i + 1))
+o=7
+for i in range(o):
+    print(str(i) * (i + 1))
+# if you want toprint khwopa  then kh ,kho,khwo,khwop,khwopa
+k="khwopa"
+for i in range(2, len(k) + 1):
+    print(k[:i])
+#pattern17
+n = 5
+for i in range(1, n + 1):
+    print(str(i) * i)
+    # pattern18
+n = 5
+for i in range(1, n + 1):
+    print(str(i) * (n - i + 1))
+# loop under loop
+l=5
+for i in range(1, l + 1):
+    for j in range(1, i + 1):
+        print(j, end="")
+    print()
+    # pattern19
+n = 5
+for i in range(1, n + 1):
+    for j in range(1, n + 1):
+        print(j, end="")
+    print()
