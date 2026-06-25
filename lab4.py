@@ -138,11 +138,18 @@
 # result=[string+str(i) for i in list_sample]
 # print(result)
 # # 20 WAP to insert n values in a list and find those values in a list that are greater than a specified number
-n=int(input("Enter number of elements"))
-list=[]
-for i in range(n):
-    list.append(int(input('Enter a value:')))
-limit=int(input('Enter comparison number:'))
-for num in list:
-    if num>limit:
-        print(num)
+# n=int(input("Enter number of elements"))
+# list=[]
+# for i in range(n):
+#     list.append(int(input('Enter a value:')))
+# limit=int(input('Enter comparison number:'))
+# for num in list:
+#     if num>limit:
+#         print(num)
+# a,b=3.3,3
+# c=a//b
+# print(c)
+# m,n=12,5
+# print(m//n)
+# m1,n1=-12,5
+# print(m1//n1)
